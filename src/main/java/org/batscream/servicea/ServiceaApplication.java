@@ -1,4 +1,4 @@
-package code.batscream.servicea;
+package org.batscream.servicea;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,10 +8,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  *
  */
 @SpringBootApplication
-public class Application 
+public class ServiceaApplication 
 {
     public static void main( String[] args )
     {
-    	SpringApplication.run(Application.class, args);
+    	SpringApplication.run(ServiceaApplication.class, args);
     }
 }
